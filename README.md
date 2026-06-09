@@ -2,6 +2,8 @@
 
 Query AI is a conversational AI search engine that searches the live web, reads sources, and streams cited answers in real time. Users can try example prompts from the public homepage, sign in with Google or GitHub through Supabase Auth, and continue into an authenticated research workspace with conversation history.
 
+# LIVE : https://queryaisearch.vercel.app/
+
 ## Features
 
 - Public landing page with interactive example questions
