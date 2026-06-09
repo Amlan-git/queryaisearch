@@ -1,0 +1,35 @@
+{
+  "name": "query-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.10.0",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "build:frontend": "pnpm --dir frontend run build",
+    "vercel-build": "pnpm run build:frontend"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^3.0.80",
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "@supabase/supabase-js": "^2.106.1",
+    "@tavily/core": "^0.7.3",
+    "ai": "^6.0.184",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "helmet": "^8.2.0",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.8.0",
+    "@vercel/node": "^5.5.9",
+    "tsx": "^4.22.1",
+    "typescript": "^5.9.3"
+  }
+}
