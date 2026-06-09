@@ -163,6 +163,4 @@ On Vercel, these are rewritten to serverless functions under `/api`.
 - If OAuth redirects to localhost in production, update Supabase Auth URL Configuration and redeploy.
 - If `/auth/callback` shows a blank page, make sure the latest build uses the root `frontend/index.html` entry and Vite asset paths.
 
-## License
 
-Private project. Add a license before publishing for public reuse.
